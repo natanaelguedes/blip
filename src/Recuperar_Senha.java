@@ -1,6 +1,7 @@
 import static org.junit.Assert.assertTrue;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -18,7 +19,9 @@ public class Recuperar_Senha {
 	    driver.findElement(By.id("Email")).sendKeys("testesg022@gmail.com");
 	    driver.findElement(By.id("submitButton")).click();
 	    assertTrue(driver.findElement(By.xpath("//main[@id='forgot-password-success']/h1")).getText().matches("^Enviamos um email para t[\\s\\S]*[\\s\\S]*[\\s\\S]*[\\s\\S]*2@gmail\\.com$"));
-	  }
+       
+	
+	}
 	  }
 	
 
