@@ -5,7 +5,7 @@ import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Recuperar_Senha {
+public class Esquecer_Senha {
 
 	public static void main(String[] args) {
 
